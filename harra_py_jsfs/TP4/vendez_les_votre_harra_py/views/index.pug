@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+
+  table.objetlist 
+    each objet in objects
+      tr.objet(data-id= objet.id)
+        td.description= objet.description 
+        td.price= objet.price
+
+  a(href="access/login") Login 
+  p
+  a(href="access/register") Register   

@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#problem {
+  font-style: italic;
+  color: red  ;
+}
+
+button {
+  margin-right: 2px;
+}
+
+#objetlist {
+  border : solid 2px #404040;
+  padding: 4px;
+  margin: 10px auto;
+}
+
+tr.objet {
+  border: solid thin #404040;
+  background-color: #E0E0E0;
+}
+
+tr.description, tr.price {
+  padding: 2px 5px;
+}
+
+tr.objet{
+  font-weight: bold;
+}
+
+tr.price{
+  color: green;
+}

@@ -1,0 +1,11 @@
+extends layout 
+
+block content 
+    h1 = title
+    p Object list 
+    table#objectlist
+        each object in objects
+            tr.object(data-id= object.id)
+                td.description= object.description
+                td.price= object.price
+                

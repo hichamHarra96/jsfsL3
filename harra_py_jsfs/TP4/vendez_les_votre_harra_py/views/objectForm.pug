@@ -1,0 +1,12 @@
+extends layout 
+
+block content 
+    - var theobject
+    - if (object) { theobject = object } else { theobject = description : '', price : '' }   
+    h1 Create object
+    p Provide new object
+    div 
+        input#description(placeholder="description", value=theobject.description)
+        input#price(placeholder="price", value=theobject.price)
+        block objectcontrol
+    #result 
